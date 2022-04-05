@@ -1,0 +1,19 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsforgithub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Azure Cloud Administrator Resume Example Dominion Enterprises - , Illinois.html",
+				"folderPath": "inputf",
+				"container": "input"
+			}
+		}
+	}
+}
