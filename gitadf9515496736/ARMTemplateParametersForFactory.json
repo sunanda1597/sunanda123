@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "gitadf9515496736"
+		},
+		"lsforgithub_connectionString": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://adfkv15.vault.azure.net/"
 		}
 	}
 }

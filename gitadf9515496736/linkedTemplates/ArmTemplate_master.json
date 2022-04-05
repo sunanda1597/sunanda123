@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "gitadf9515496736"
 		},
+		"lsforgithub_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'lsforgithub'"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://adfkv15.vault.azure.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"lsforgithub_connectionString": {
+						"value": "[parameters('lsforgithub_connectionString')]"
+					},
+					"AzureKeyVault1_properties_typeProperties_baseUrl": {
+						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"
 					}
 				}
 			},
